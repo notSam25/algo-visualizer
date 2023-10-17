@@ -53,7 +53,8 @@ document.addEventListener("DOMContentLoaded", () => {
       parseInt(computedStyle.width) / array.length -
       elementDiv.style.marginLeft +
       "px";
-    elementDiv.style.height = "100%";
+    elementDiv.style.height =
+      parseInt(computedStyle.height) * (array[index] / 100) + "px";
     elementDiv.style.backgroundColor = "black";
     algoDiv.appendChild(elementDiv);
   });

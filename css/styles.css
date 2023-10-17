@@ -1,0 +1,19 @@
+.test-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ccc;
+  width: 50vh;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.number-div {
+  margin-left: 10px;
+  width: 0%;
+  height: 0%;
+  background-color: black;
+}

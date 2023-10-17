@@ -13,7 +13,18 @@
 
 .number-div {
   margin-left: 10px;
-  width: 0%;
-  height: 0%;
-  background-color: black;
+  width: 10px;
+  height: 100%;
+  background-color: white;
+}
+
+.number-div p {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 550;
+  line-height: 20px;
+  color: black;
+  transform: translateY(-40px) rotate(180deg);
 }

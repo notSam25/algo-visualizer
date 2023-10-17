@@ -56,6 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
     elementDiv.style.height =
       parseInt(computedStyle.height) * (array[index] / 100) + "px";
     elementDiv.style.backgroundColor = "black";
+
+    let elementParagraph = document.createElement("p");
+    elementParagraph.textContent = element;
+    elementDiv.appendChild(elementParagraph);
     algoDiv.appendChild(elementDiv);
   });
 });

@@ -1,4 +1,13 @@
 .algo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* Change to column direction */
+  align-items: center;
+  justify-content: center; /* Add this line to center the content vertically */
+}
+
+.bubble-sort-container {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -12,8 +21,8 @@
 }
 
 .number-div {
-  margin-left: 10px;
-  width: 10px;
+  margin-left: 0.1vh;
+  margin-right: 0.1vh;
   height: 100%;
   background-color: white;
 }
